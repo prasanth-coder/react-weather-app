@@ -1,0 +1,21 @@
+.content {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+.content p .one {
+  justify-self: flex-start;
+}
+.icons {
+  height: 100px;
+  width: 100px;
+}
